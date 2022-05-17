@@ -1,5 +1,6 @@
 import React, { createContext, useState } from "react";
 import Grader from "./component/Grader";
+import Memo from "./component/Memo";
 
 export const ThemeContext = createContext();
 
@@ -14,7 +15,8 @@ function App() {
     >
       {/* <ToolBar />
       <WeatherReaction /> */}
-      <Grader />
+      {/* <Grader /> */}
+      <Memo />
     </ThemeContext.Provider>
   );
 }
